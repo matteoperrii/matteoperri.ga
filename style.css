@@ -1,0 +1,36 @@
+@font-face {font-family: 'Manrope';
+src: url("fonts/manrope-extrabold.otf");
+font-weight: 700;}
+@font-face {font-family: 'Manrope';
+src: url("fonts/manrope-bold.otf");
+font-weight: 600;}
+@font-face {font-family: 'Manrope';
+src: url("fonts/manrope-semibold.otf");
+font-weight: 500;}
+@font-face {font-family: 'Manrope';
+src: url("fonts/manrope-regular.otf");
+font-weight: 400;}
+body {font-family: 'Manrope';
+background-color: #0F4C81;
+color: #ddd;
+margin: 10%;}
+a { color: lightblue;}
+a img {padding: 10px;}
+header,footer { display: -ms-flex;
+display: flex;
+text-align: center;
+align-items: center;}
+nav { display: inline-block;}
+nav ul { list-style-type: none; padding-left: 0;}
+nav li { display: inline-block; margin: 0 8px;}
+nav a { text-decoration: none;}
+nav.secondary,nav.social { margin: 0 auto;}
+img { vertical-align: middle;}
+#mattep { font-size: 3rem; }
+@keyframes flash {
+ 0% {opacity: 1;} 50% {opacity: 0;} 100% {opacity: 1;}
+}
+.flash {padding: 0px;
+ animation: flash .5s linear;
+ animation-iteration-count: 2;
+ padding: 0px 0px;}
