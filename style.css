@@ -16,12 +16,15 @@ color: #ddd;
 margin: 10%;}
 a { color: lightblue;}
 a img {padding: 10px;}
-header,footer {display: flex; text-align: center;}
+header,footer { display: -ms-flex;
+display: flex;
+text-align: center;
+align-items: center;}
 nav { display: inline-block;}
 nav ul { list-style-type: none; padding-left: 0;}
 nav li { display: inline-block; margin: 0 8px;}
 nav a { text-decoration: none;}
-nav.secondary { margin-left: auto;}
+nav.secondary,nav.social { margin: 0 auto;}
 img { vertical-align: middle;}
 #mattep { font-size: 3rem; }
 @keyframes flash {
